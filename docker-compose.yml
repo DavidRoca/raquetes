@@ -1,13 +1,24 @@
-version: "3.9"
+version: '3.9'
+
 services:
-  app:
+  backend:
     build:
-      context: .
+      context: ./backend
+      dockerfile: Dockerfile.backend
     volumes:
-      - ./tennis_app:/tennis_app  # Mount the local tennis_app folder to /tennis_app inside the container
-      - ./data:/app/data  # Mount a local 'data' directory to container's /app/data for SQLite persistence
+      - ./backend:/app
     ports:
-      - "8000:8000"  # Expose FastAPI on localhost:8000
+      - "8000:8000"
     environment:
-      - DATABASE_URL=sqlite:///app/data/app.db  # Adjusted to match the new volume mapping
-    command: uvicorn tennis_app.main:app --host 0.0.0.0 --port 8000 --reload
+      - DATABASE_URL=sqlite:///app/data/app.db
+    command: uvicorn main:app --host 0.0.0.0 --port 8000
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile.frontend
+    volumes:
+      - ./frontend:/app
+    ports:
+      - "3000:3000"
+    command: python login_page.py

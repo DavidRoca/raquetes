@@ -1,5 +1,5 @@
 from sqlalchemy import Column, Integer, String, Boolean
-from tennis_app.database import Base
+from backend.database import Base
 
 class User(Base):
     """

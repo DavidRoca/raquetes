@@ -4,45 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8a72e28-e460-4ac1-9002-91352bdb8a60" name="Changes" comment="">
+    <list default="true" id="e8a72e28-e460-4ac1-9002-91352bdb8a60" name="Changes" comment="First">
       <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/raquetes.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alembic.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tennis_app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tennis_app/auth/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tennis_app/auth/dependencies.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tennis_app/auth/jwt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tennis_app/auth/password.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tennis_app/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tennis_app/database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tennis_app/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tennis_app/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tennis_app/models/club_admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tennis_app/models/player.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tennis_app/models/user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tennis_app/routers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tennis_app/routers/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tennis_app/routers/auth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tennis_app/routers/player.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tennis_app/schemas/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tennis_app/schemas/club_admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tennis_app/schemas/player.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tennis_app/schemas/user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tennis_app/seed_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tennis_app/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tennis_app/tests/test_auth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tennis_app/tests/test_players.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tennis_app/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tennis_app/utils/helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/Dockerfile.backend" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/routers/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/Dockerfile.frontend" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/login_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/app.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/app.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tennis_app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tennis_app/auth/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/auth/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tennis_app/auth/dependencies.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/auth/dependencies.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tennis_app/auth/jwt.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/auth/jwt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tennis_app/auth/password.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/auth/password.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tennis_app/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tennis_app/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tennis_app/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tennis_app/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tennis_app/models/club_admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/club_admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tennis_app/models/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tennis_app/models/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tennis_app/routers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routers/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tennis_app/routers/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routers/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tennis_app/routers/auth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tennis_app/routers/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routers/player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tennis_app/schemas/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/schemas/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tennis_app/schemas/club_admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/schemas/club_admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tennis_app/schemas/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/schemas/player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tennis_app/schemas/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/schemas/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tennis_app/seed_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/seed_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tennis_app/tests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/tests/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tennis_app/tests/test_auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/tests/test_auth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tennis_app/tests/test_players.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/tests/test_players.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tennis_app/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/utils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tennis_app/utils/helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/utils/helpers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,12 +53,25 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "DavidRoca"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/DavidRoca/raquetes.git",
+    "accountId": "f187b80e-5735-4408-9d60-30a69e0e6755"
+  }
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/app/app.db" root0="SKIP_INSPECTION" />
     <setting file="file:///usr/lib/python3.12/importlib/_bootstrap.py" root0="SKIP_INSPECTION" />
@@ -89,8 +102,10 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/alembic" />
-      <recent name="$PROJECT_DIR$/tennis-app" />
+      <recent name="$PROJECT_DIR$/tennis_app/frontend" />
+      <recent name="$PROJECT_DIR$/tennis_app/backend" />
+      <recent name="$PROJECT_DIR$/tennis_app" />
+      <recent name="$PROJECT_DIR$/data" />
     </key>
   </component>
   <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
@@ -107,7 +122,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tennis_app/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tennis_app/backend/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -129,7 +144,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tennis_app/seed_data.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tennis_app/backend/seed_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -138,19 +153,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unnamed" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
-      <deployment type="dockerfile">
-        <settings>
-          <option name="containerName" value="" />
-          <option name="sourceFilePath" value="Dockerfile" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
           <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="frontend/Dockerfile.frontend: Compose Deployment" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="containerName" value="" />
+          <option name="sourceFilePath" value="frontend/Dockerfile.frontend" />
         </settings>
       </deployment>
       <method v="2" />
@@ -179,7 +194,31 @@
       <option name="presentableId" value="Default" />
       <updated>1732286815752</updated>
     </task>
+    <task id="LOCAL-00001" summary="First">
+      <option name="closed" value="true" />
+      <created>1733336847558</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733336847558</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First" />
+    <option name="LAST_COMMIT_MESSAGE" value="First" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

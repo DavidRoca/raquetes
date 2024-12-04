@@ -1,11 +1,14 @@
 from fastapi import FastAPI
-from tennis_app.routers import auth
-from tennis_app.database import engine, Base
+from backend.routers import auth
+from backend.database import engine, Base
+from starlette.middleware.sessions import SessionMiddleware
 
 # Create database tables
 Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
+
+app.add_middleware(SessionMiddleware, secret_key="!secret")
 
 # Include Routers
 app.include_router(auth.router)

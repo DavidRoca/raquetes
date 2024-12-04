@@ -1,8 +1,6 @@
 from datetime import datetime, timedelta
 
-from sqlalchemy.orm import Session
-
-from tennis_app.config import SECRET_KEY
+from backend.config import SECRET_KEY
 from jose import jwt, JWTError
 from fastapi import Depends, HTTPException, status
 from fastapi.security import OAuth2PasswordBearer

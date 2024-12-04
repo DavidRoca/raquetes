@@ -7,9 +7,9 @@ import os
 # Add the project root directory to the Python path
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from tennis_app.database import SessionLocal
+from backend.database import SessionLocal
 
-from tennis_app.models.user import User
+from backend.models.user import User
 
 # Set up password hashing context
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
